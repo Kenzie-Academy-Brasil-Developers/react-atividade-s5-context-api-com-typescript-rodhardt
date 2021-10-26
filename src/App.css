@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+h2 {
+  width: 95%;
+  text-align: center;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0px;
+  margin: auto;
+  width: 90%;
+}
+
+li {
+  width: 150px;
+  background-color: rgb(255, 255, 255, 0.7);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img {
+  width: 30px;
+  height: 60px;
+  object-fit: contain;
+}
+
+h4,
+h5 {
+  font-size: 0.9rem;
+}
+
+button {
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: rgb(41, 177, 41);
+}
+
+.add-button:hover {
+  background-color: rgb(12, 134, 12);
+}
+
+.remove-button {
+  background-color: rgb(221, 56, 56);
+}
+
+.remove-button:hover {
+  background-color: rgb(167, 24, 24);
+}
